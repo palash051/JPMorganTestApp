@@ -1,0 +1,4 @@
+#Sun Apr 19 23:27:09 PDT 2020
+base.0=/Users/jahirulbhuiyan/Downloads/RND/NYSchoolCodingChallenge-master/app/build/intermediates/dex/debug/mergeDexDebug/out
+path.0=classes.dex
+renamed.0=classes.dex

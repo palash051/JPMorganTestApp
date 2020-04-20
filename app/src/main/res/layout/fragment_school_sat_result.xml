@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".ui.SchoolSatResultFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="School Details"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textColor="@color/detailTitle"
+        android:textSize="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/tvSchoolName"
+        android:layout_height="wrap_content"
+        android:textColor="@color/detailName"
+        android:textStyle="bold"
+        android:textSize="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:layout_marginTop="3dp"
+        android:textColor="@color/detailTitle"
+        android:textSize="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/tvSchoolAddress"
+        android:layout_height="wrap_content"
+        android:textColor="@color/listAddressColor"
+        android:textSize="11dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="Overview Paragraph"
+        android:textColor="@color/detailTitle"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/tvOverviewParagraph"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/listAddressColor"
+        android:textSize="11dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="SAT Result"
+        android:textColor="@color/detailTitle"
+        android:textSize="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/tvSatResult"
+        android:layout_height="wrap_content"
+        android:textColor="@color/listAddressColor"
+        android:textSize="11dp" />
+
+
+</LinearLayout>
